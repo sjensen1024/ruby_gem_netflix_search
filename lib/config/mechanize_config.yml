@@ -1,0 +1,13 @@
+# This is the default YML utilized for the Netflix Search gem.
+login_url: https://netflix.com/login
+login_form_index: 0
+login_form_email_field_name: userLoginId
+login_form_password_field_name: password
+login_form_pre_submit_sleep: 1
+login_form_post_submit_sleep: 1
+profile_select_sleep: 1
+search_url: https://www.netflix.com/search?q=SEARCH_TERM
+search_url_replace: SEARCH_TERM
+search_result_title: aria-label
+search_result_xpath: '//*[@id="title-card-0-INDEX"]/div[1]/a'
+search_result_xpath_replace: INDEX
